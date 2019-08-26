@@ -12,6 +12,8 @@ This is a simple demonstration of using React with GraphQL. This project is only
   
 2. Do `npm i` and then `npm start` to run this project.
 
+3. Explore the data itself at http://localhost:8080/ (the Graphiql interface).
+
 ## Credit...?
 
 This idea of this project came out of an assignment from one of my interviews.
