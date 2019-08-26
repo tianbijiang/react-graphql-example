@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed');
+@import 'shared.scss';
+
+body {
+  background-color: $dark-gray;
+  color: $light-gray;
+  margin: 0;
+  padding: 0;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 18px;
+}
+
+p {
+  line-height: 1.2em;
+}
+
+a {
+  color: $light-gray;
+  text-decoration: none;
+}
+
+.container {
+  margin: 50px 80px;
+}
+
+.info {
+  margin: 0 20px 5px 0;
+  color: $light-gray;
+  span {
+    color: $off-white;
+  }
+}
+
+.section h3 {
+  font-size: 25px;
+  color: $light-gray;
+}
+
+.section__container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.section__item {
+  background-color: $medium-light-gray;
+  margin: 0 10px 10px 0;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  vertical-align: center;
+  cursor: pointer;
+}

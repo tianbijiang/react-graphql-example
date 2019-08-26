@@ -1,0 +1,12 @@
+@import '../../shared.scss';
+
+.header {
+  background-color: $medium-gray;
+  height: 200px;
+}
+
+.header__logo {
+  margin: 0 auto;
+  height: 100%;
+  display: block;
+}
