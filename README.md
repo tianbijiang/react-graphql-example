@@ -8,7 +8,7 @@ This is a simple demonstration of using React with GraphQL. This project is only
 
 ## Run it
 
-1. Clone the [SWAPI GraphQL server project](https://github.com/tianbijiang/swapi-graphql), and do `npm i` and then `npm start` to get the GraphQL server running.
+1. Clone the [SWAPI GraphQL server project](https://github.com/graphql/swapi-graphql), and do `npm i` and then `npm start` to get the GraphQL server running. The server port should be 8080 by default and will be printed in your terminal, but in case the port number is different, change accordingly in `App.js`.
   
 2. Do `npm i` and then `npm start` to run this project.
 
